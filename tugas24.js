@@ -3,7 +3,7 @@ function tampung (){
     hasil = angka.join(',')
     console.log('Sebelumnya :',hasil);
     var data = angka.sort()
-    console.log('Ascending :',angka.join(','));
+    console.log('Ascending :',data.join(','));
     var result = data.reverse();
     console.log('Descending :',result.join());
 }
